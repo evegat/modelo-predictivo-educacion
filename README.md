@@ -1,5 +1,11 @@
 ﻿# Modelamiento Predictivo: Factores Contextuales y Vocación Pedagógica
 
+[![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-scikit--learn-orange.svg)](#)
+
+[ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
+
 Pipeline integral de **Ciencia de Datos y Machine Learning** para identificar las dimensiones contextuales, socioeducativas y territoriales que inciden en el interés por estudiar carreras de pedagogía en egresados de Educación Media de la Región Metropolitana (Chile).
 
 Proyecto desarrollado en el marco del *Diplomado en Inteligencia Artificial* (Universidad Técnica Federico Santa María - USM).
@@ -36,9 +42,7 @@ El flujo de trabajo está modularizado en notebooks secuenciales y reproducibles
 ## 🛠️ Stack Tecnológico
 
 - **Lenguaje:** Python 3.10+
-- **Bibliotecas de Ciencia de Datos:** `pandas`, `numpy`, `scipy`
-- **Machine Learning:** `scikit-learn`
-- **Visualización:** `matplotlib`, `seaborn`
+- **Bibliotecas:** `pandas`, `numpy`, `scipy`, `scikit-learn`, `matplotlib`, `seaborn`
 - **Entorno:** Jupyter Notebooks / Google Colab
 
 ---
@@ -55,7 +59,7 @@ python -m venv .venv
 source .venv/bin/activate  # En Windows: .venv\Scripts\activate
 
 # 3. Instalar dependencias
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+pip install -r requirements.txt
 
 # 4. Iniciar Jupyter Lab o Notebook
 jupyter notebook
